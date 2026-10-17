@@ -1,0 +1,19 @@
+body {
+    background-color: #515bd4;
+}
+
+/* CONTAINER FOR THE MEME */
+.image-container {
+  display: flex;
+  gap: 20px; /* Creates a 20px horizontal gap between the images */
+  align-items: center; /* Aligns them vertically if they are different heights */
+}
+
+.image-container img {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+}
+/* TEXT STYLING */
+
+
